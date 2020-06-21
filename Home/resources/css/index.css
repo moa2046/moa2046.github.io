@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    font-family: "open sans";
+    color: #696969;
+}
+
+a {
+    color: gray;
+}
+
+nav {
+    width: 100%;
+    z-index: 1;
+    height: 45px;
+    border-bottom: 1px solid seashell;
+    text-align: right;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: color 
+}
+ span {
+    padding-top: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: helvetica;
+ }
+
+.header {
+    background-image: url("../background.jpg");
+    background-size: cover;
+    height: 800px;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    padding-top: 350px;
+    font-size: 60px;
+    color:#ffffff;
+    -webkit-text-stroke: 1px #A9A9A9;
+}
+
+.about {  
+    text-align: center;
+    padding-top: 100px;
+    font-size: 22px;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 300px;
+}
+ i {
+     text-align: center;
+     width: 100%;
+     font-size: 40px;
+     color: #696969;
+     padding-bottom: 20px;
+ }
+
+.research {
+    height: 400px;
+    padding-top: 100px;
+    text-align: center;
+    background-image: url(../qbkls.png); 
+    opacity: 0.5;
+    color: #000000;
+    font-size: 22px;
+}
+
+.contact {
+    padding-top: 100px;
+    background-color: #696969;
+    padding-bottom: 20px;
+    height: 200px;
+}
+
+#contact-icon {
+    color: #ffffff;
+}
+
+#icons-small {
+    padding-top: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h5 {
+    color: #ffffff;
+}
+
+footer {
+    background-color: #696969;
+}
